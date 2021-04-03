@@ -1,0 +1,118 @@
+ @font-face {
+	font-family: 'Zilla Slab', serif;
+}
+#title1{
+	font-family: 'Zilla Slab', serif;
+}
+h2{
+	font-family: 'Zilla Slab', serif;
+}
+ol li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Special Elite", cursive;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+h3 {
+	text-align:center;
+	font-family: 'Zilla Slab', serif;
+}
+p::selection{
+		color:white;
+		background-color:blue;
+}
+
+p {
+  color:black;
+}
+h1{
+
+	text-align:center;
+	font-family: 'Zilla Slab', serif;
+}
+html{
+	background-image:url(imgs/imagem5.jpg);
+}
+ol{
+	background-color:white;
+}
+.img7{
+	position:relative;
+	height:200px;
+	left:30%;
+	top:-5px;
+	width:200px;
+}
+.img8{
+	position:relative;
+	height:200px;
+	top:-5px;
+	left:40%;
+	width:200px;
+}
+.img10{
+	float:right;
+	height:200px;
+	top:-5px;
+	left:40%;
+	width:200px;
+}
+.img11{
+	position:relative;
+	height:200px;
+	top:50px;
+	left:350px;
+	width:200px;
+}
+.img12{
+	position:relative;
+	height:200px;
+	top:50px;
+	left:680px;
+	width:200px;
+}
+
+
+#voltar-topo {
+
+  font-size: 35px;
+  box-sizing: content-box;
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  right:15px;
+  bottom: 30px;
+  opacity:0.4;
+}
+#voltar-topo::before {
+  content: "⬆️";
+  display:inline;
+}
+#radio{
+	text-align:center;
+	font-size:30px;
+	font-family: 'Zilla Slab', serif;
+
+}
+
+.img9{
+	position:relative;
+	height:200px;
+	top:20px;
+	left:43%;
+	width:200px;
+}
+.navigation{
+  background-color:yellow;
+  border-radius: 20px;
+}
+#contas{
+  font-size: 30px;
+  font-family: 'Zilla Slab', serif;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 10px;
+}
